@@ -1,0 +1,25 @@
+{
+    "powracajacy_klienci": [
+        {
+            "id_wycieczki": 12,
+            "miejsce": "Dominikana",
+            "powracajacy_klienci": 16,
+            "wszyscy_klienci": 19,
+            "procent_powracajacych": 84.21
+        },
+        {
+            "id_wycieczki": 10,
+            "miejsce": "Malediwy",
+            "powracajacy_klienci": 28,
+            "wszyscy_klienci": 35,
+            "procent_powracajacych": 80.0
+        },
+        {
+            "id_wycieczki": 13,
+            "miejsce": "Jamaika",
+            "powracajacy_klienci": 8,
+            "wszyscy_klienci": 10,
+            "procent_powracajacych": 80.0
+        }
+    ]
+}

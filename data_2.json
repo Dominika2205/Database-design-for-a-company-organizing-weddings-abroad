@@ -1,0 +1,52 @@
+{
+    "klienci": [
+        {
+            "data": "01-2024",
+            "ilosc_klientow": 47
+        },
+        {
+            "data": "02-2024",
+            "ilosc_klientow": 26
+        },
+        {
+            "data": "03-2024",
+            "ilosc_klientow": 11
+        },
+        {
+            "data": "04-2024",
+            "ilosc_klientow": 109
+        },
+        {
+            "data": "05-2024",
+            "ilosc_klientow": 21
+        },
+        {
+            "data": "06-2024",
+            "ilosc_klientow": 12
+        },
+        {
+            "data": "07-2024",
+            "ilosc_klientow": 45
+        },
+        {
+            "data": "08-2024",
+            "ilosc_klientow": 72
+        },
+        {
+            "data": "09-2024",
+            "ilosc_klientow": 124
+        },
+        {
+            "data": "10-2024",
+            "ilosc_klientow": 39
+        },
+        {
+            "data": "11-2024",
+            "ilosc_klientow": 31
+        },
+        {
+            "data": "12-2024",
+            "ilosc_klientow": 59
+        }
+    ]
+}

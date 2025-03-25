@@ -1,0 +1,52 @@
+{
+    "rezerwacje_miesiac": [
+        {
+            "miesiac": "2024-09",
+            "liczba_rezerwacji": 124
+        },
+        {
+            "miesiac": "2024-04",
+            "liczba_rezerwacji": 109
+        },
+        {
+            "miesiac": "2024-08",
+            "liczba_rezerwacji": 72
+        },
+        {
+            "miesiac": "2024-12",
+            "liczba_rezerwacji": 59
+        },
+        {
+            "miesiac": "2024-01",
+            "liczba_rezerwacji": 47
+        },
+        {
+            "miesiac": "2024-07",
+            "liczba_rezerwacji": 45
+        },
+        {
+            "miesiac": "2024-10",
+            "liczba_rezerwacji": 39
+        },
+        {
+            "miesiac": "2024-11",
+            "liczba_rezerwacji": 31
+        },
+        {
+            "miesiac": "2024-02",
+            "liczba_rezerwacji": 26
+        },
+        {
+            "miesiac": "2024-05",
+            "liczba_rezerwacji": 21
+        },
+        {
+            "miesiac": "2024-06",
+            "liczba_rezerwacji": 12
+        },
+        {
+            "miesiac": "2024-03",
+            "liczba_rezerwacji": 11
+        }
+    ]
+}

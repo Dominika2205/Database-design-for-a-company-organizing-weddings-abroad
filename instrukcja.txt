@@ -1,0 +1,81 @@
+Cały projekt otwieramy w VSC.
+
+Otwieramy mysqlworkbench 
+W my sql workbench
+Tworzycie schemat który nazywacie projekt_bazy
+W nim tworzycie tabele:
+
+Tworzenie tabel w mysql workbench
+
+USE projekt_bazy;
+
+CREATE TABLE travel_packages (
+    id INT PRIMARY KEY,
+    miejsce VARCHAR(100),
+    cena_para_mloda FLOAT,
+    koszt_para_mloda FLOAT,
+    prowizja_para_mloda FLOAT,
+    cena_mniej_10_osob FLOAT,
+    koszt_mniej_10_osob FLOAT,
+    prowizja_mniej_10_osob FLOAT,
+    cena_10_25_osob FLOAT,
+    koszt_10_25_osob FLOAT,
+    prowizja_10_25_osob FLOAT,
+    cena_25_50_osob FLOAT,
+    koszt_25_50_osob FLOAT,
+    prowizja_25_50_osob FLOAT
+);
+
+
+use projekt_bazy;
+CREATE TABLE klienci (
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    imie VARCHAR(50) NOT NULL,          
+    nazwisko VARCHAR(100) NOT NULL,     
+    pesel VARCHAR(11) NOT NULL,         
+    telefon VARCHAR(15),               
+    telefon_kontaktowy VARCHAR(15),     
+    email VARCHAR(100) NOT NULL        
+);
+use projekt_bazy;
+CREATE TABLE pracownicy (
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    imie VARCHAR(50) NOT NULL,          
+    nazwisko VARCHAR(100) NOT NULL,     
+    pesel VARCHAR(11) NOT NULL,         
+    telefon VARCHAR(15),               
+    telefon_kontaktowy VARCHAR(15),     
+    email VARCHAR(100) NOT NULL
+);
+use projekt_bazy;
+CREATE TABLE zrealizowane_wycieczki (
+    id_wycieczki INT NOT NULL,
+    id_klienta INT NOT NULL,
+    datakupna DATE NOT NULL,
+    datawyjazdu DATE NOT NULL,
+    id_pracownika INT NOT NULL
+);
+use projekt_bazy;
+CREATE TABLE zarobkipracowników (
+    EmployeeID INT NOT NULL,
+    HireDate DATE,
+    TerminationDate DATE,
+    SalaryDate DATE,
+    SalaryAmount FLOAT
+);
+
+Przechodzimy do VSC
+Musicie uruchomić plik main3.py wpisując swoje hasło (do localhosta), moje to malykot321$ i on ładuje dane do tabeli ( pracuje nad peselami numerami telefonów i telefonamidodatkowymi oraz płacami)
+Przed każdym ponownym uruchomieniem musicie wyczyścić tabelki w mysql workbench
+use projekt_bazy;
+TRUNCATE TABLE travel_packages;
+USE projekt_bazy;
+TRUNCATE TABLE klienci;
+use projekt_bazy;
+TRUNCATE TABLE pracownicy;
+use projekt_bazy;
+TRUNCATE TABLE zrealizowane_wycieczki;
+use projekt_bazy;
+TRUNCATE TABLE zarobkipracowników;
+
+Następnie uruchamiamy wszystkie pliki app (numeracja od 1 do 7) oraz raport który generuje raport

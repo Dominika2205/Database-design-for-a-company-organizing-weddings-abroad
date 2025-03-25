@@ -1,0 +1,24 @@
+{
+    "najsłabsze_miesiące": [
+        {
+            "miesiac": "2024-03",
+            "liczba_rezerwacji": 11
+        },
+        {
+            "miesiac": "2024-06",
+            "liczba_rezerwacji": 12
+        },
+        {
+            "miesiac": "2024-05",
+            "liczba_rezerwacji": 21
+        },
+        {
+            "miesiac": "2024-02",
+            "liczba_rezerwacji": 26
+        },
+        {
+            "miesiac": "2024-11",
+            "liczba_rezerwacji": 31
+        }
+    ]
+}
